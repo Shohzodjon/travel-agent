@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <title>Buliding</title>
+  </head>
+  <body>
+    <!-- begin header  -->
+
+<div class="custom-spinner">
+    <div class="circle">
+    <img src="./images/loading.gif">
+       </div>
+</div>
+
+    <header class="header">
+      <a href="#" class="logo titleText">
+       Travel <span>Agent</span>
+      </a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="titleText">home</a></li>
+          <li><a href="#about" class="titleText">about</a></li>
+          <li><a href="#services" class="titleText">services</a></li>
+          <li><a href="#projects" class="titleText">Tour</a></li>
+          <li><a href="#pricing" class="titleText">pricing</a></li>
+          <li><a href="#blogs" class="titleText">blogs</a></li>
+          <li><a href="#contact" class="titleText">contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="iconBox"><i class="bi bi-justify"></i></div>
+        <div id="info-btn" class="iconBox">
+          <i class="bi bi-info-circle-fill"></i>
+        </div>
+        <div id="search-btn" class="iconBox"><i class="bi bi-search"></i></div>
+        <div id="user-btn" class="iconBox">
+          <i class="bi bi-person-fill"></i>
+        </div>
+      </div>
+
+      <form class="search-form">
+        <input type="search" placeholder="Search here ... " id="search-box" />
+        <label for="search-box"><i class="bi bi-search"></i></label>
+      </form>
+
+      <form class="login-form">
+        <h3 class="titleText">Login form</h3>
+        <input
+          type="email"
+          placeholder="Enter your email ... "
+          class="login-box"
+        />
+        <input
+          type="password"
+          placeholder="Enter your password ... "
+          class="login-box"
+        />
+
+        <div class="flex">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">Remember me</label>
+          <a href="#">Forgot password ? </a>
+        </div>
+        <input type="submit" value="Login now" class="btn login-btn" />
+        <p class="graphText">
+          Don't have an account <a href="#">create one</a>
+        </p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info"><i class="bi bi-x-lg"></i></div>
+
+      <div class="info">
+        <i class="bi bi-telephone-fill"></i>
+        <h3 class="titleText">Phone number</h3>
+        <p class="graphText">
+          <a href="+99894 344 44 45">+998(94) 344-44-45</a>
+        </p>
+        <p><a href="+99871 144 50 05">+998(71) 144-50-05</a></p>
+      </div>
+
+      <div class="info">
+        <i class="bi bi-envelope"></i>
+        <h3 class="titleText">Email address</h3>
+        <p class="graphText">
+          <a mailto="TravelWorld@gmail.com">TravelWorld@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="info">
+        <i class="bi bi-geo-alt-fill"></i>
+        <h3 class="titleText">Office address</h3>
+        <p class="graphText">Samarqand city A.Temur street 23-A </p>
+      </div>
+      <div class="share">
+        <a href="#" ><i class="bi bi-facebook"></i></a>
+        <a href="#" ><i class="bi bi-twitter"></i></a>
+        <a href="#" ><i class="bi bi-instagram"></i></a>
+        <a href="#" ><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <!-- end of header -->
+
+    <!--  begin home section -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="slide swiper-slide"
+            style="
+              background: url(./images/home_2.jpg);
+              background-position: center;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="content">
+              <h3 class="titleText">We provide best service</h3>
+              <p class="graphText">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis provident necessitatibus fugiat corporis quidem error!
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="slide swiper-slide"
+            style="background: url(./images/place_1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3 class="titleText">Enjoy in life</h3>
+              <p class="graphText">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis provident necessitatibus fugiat corporis quidem error!
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="slide swiper-slide"
+            style="background: url(./images/place_2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3 class="titleText">Create new world for yourself</h3>
+              <p class="graphText">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis provident necessitatibus fugiat corporis quidem error!
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!--  end of home section -->
+
+    <!-- begin about section -->
+
+    <section class="about" id="about">
+      <h1 class="heading titleText">about us</h1>
+      <div class="row">
+        <div class="video">
+          <img src="./images/about_1.jpg" />
+        </div>
+        <div class="about__content">
+          <h3 class="titleText">
+            We will provide you the best work which you dreamt for
+          </h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            velit cupiditate similique reiciendis cumque nobis!
+          </p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="box-container grid">
+        <div class="about__box">
+          <h3 class="titleText">10+</h3>
+          <p class="graphText">years of experience</p>
+        </div>
+
+        <div class="about__box">
+          <h3 class="titleText">1500+</h3>
+          <p class="graphText">projects complited</p>
+        </div>
+
+        <div class="about__box">
+          <h3 class="titleText">790+</h3>
+          <p class="graphText">satiesfied clients</p>
+        </div>
+
+        <div class="about__box">
+          <h3 class="titleText">450+</h3>
+          <p class="graphText">active workers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- begin about section -->
+
+    <!-- begin services section -->
+    <section class="services" id="services">
+      <h1 class="heading">Our services</h1>
+
+      <div class="services--box__contaner grid2">
+        <div class="services__box">
+          <img src="./images/project_2.jpg" alt="Picture" />
+          <h3 class="titleText">presentation exclusive tour</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/booking.jpg" alt="Picture" />
+          <h3 class="titleText">booking hotels room</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/img.jpg" alt="Picture" />
+          <h3 class="titleText">organizing travel tour</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/home_1.jpg" alt="Picture" />
+          <h3 class="titleText">organizing excursion</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/callCenter.jpg" alt="Picture" />
+          <h3 class="titleText">12/7 call center</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/bilet.png" alt="Picture" />
+          <h3 class="titleText">Booking avia bilet</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/quality.jpg" alt="Picture" />
+          <h3 class="titleText">supply quality products</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+
+        <div class="services__box">
+          <img src="./images/girl.jpg" alt="Picture" />
+          <h3 class="titleText">other services</h3>
+          <p class="graphText">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati,
+            nam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- begin project section -->
+    <section class="projects" id="projects">
+      <h1 class="heading">Our tour</h1>
+
+      <div class="projects__box-container grid3">
+        <a href="./images/tpalce_1.jpg" class="projects-box">
+          <div class="image">
+            <img src="./images/tpalce_1.jpg" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">China attractive places</h3>
+              <p class="graphText">Ancient bulding </p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+
+        <a href="./images/tplace_8.jpg" class="projects-box">
+          <div class="image">
+            <img src="./images/tplace_8.jpg" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">Village tourism</h3>
+              <p class="graphText">Wildlife</p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+
+        <a href="./images/tplace_3.webp" class="projects-box">
+          <div class="image">
+            <img src="./images/tplace_3.webp" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">cruise tour</h3>
+              <p class="graphText">Pacific ocean</p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+
+        <a href="./images/tplace_7.jpg" class="projects-box">
+          <div class="image">
+            <img src="./images/tplace_7.jpg" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">Willage tour</h3>
+              <p class="graphText">Exchange culture</p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+
+        <a href="./images/tplace_5.jpg" class="projects-box">
+          <div class="image">
+            <img src="./images/tplace_5.jpg" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">Ancient Samarkhand</h3>
+              <p class="graphText">Culture and history</p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+
+        <a href="./images/tplace_6.jpg" class="projects-box">
+          <div class="image">
+            <img src="./images/tplace_6.jpg" alt="picture" />
+          </div>
+          <div class="projects-content">
+            <div class="projects-info">
+              <h3 class="titleText">Snack bar on shore </h3>
+              <p class="graphText">Enthusiastic</p>
+            </div>
+            <i class="bi bi-plus-lg"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- end of  project section -->
+
+    <!-- begin review section -->
+    <section class="reviews">
+      <h1 class="heading">Clients reviews</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              nemo veniam inventore cum optio voluptates hic necessitatibus
+              repellendus accusantium quibusdam.
+            </p>
+            <div class="user">
+              <img src="./images/review_1.webp" alt="img" />
+
+              <div class="reviews-info">
+                <h3 class="titleText">Marta Smith</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              officiis magni error unde quasi aspernatur sint doloremque
+              adipisci fugit repudiandae.
+            </p>
+            <div class="user">
+              <img src="./images/review_2.jpg" alt="img" class="left-position" />
+
+              <div class="reviews-info">
+                <h3 class="titleText">Sara Paula</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              omnis nobis. Placeat, illum quo dignissimos voluptas, qui a rem
+              mollitia sed consequatur architecto itaque ratione.
+            </p>
+            <div class="user">
+              <img src="./images/review_3.jpg" alt="img" />
+
+              <div class="reviews-info">
+                <h3 class="titleText">Angela</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              exercitationem recusandae nihil voluptas laudantium dignissimos
+              quia asperiores autem nostrum dolores.
+            </p>
+            <div class="user">
+              <img src="./images/review_4.jpg" alt="img" />
+
+              <div class="reviews-info">
+                <h3 class="titleText">Jhon Doe</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+              iusto deleniti! Id, aspernatur quas ipsum fugiat eveniet minima!
+              Tenetur aliquid, cum iusto ea eaque suscipit.
+            </p>
+            <div class="user">
+              <img src="./images/review_5.jpg" alt="img" class="bottom-position"/>
+
+              <div class="reviews-info">
+                <h3 class="titleText">Cristina</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide reviews-slide">
+            <p class="graphText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              itaque veritatis dicta ex magni aspernatur, ab laboriosam ipsum
+              qui sit.
+            </p>
+            <div class="user">
+              <img src="./images/review_2.jpg" alt="img" class="left-position"/>
+
+              <div class="reviews-info">
+                <h3 class="titleText">Carla</h3>
+                <div class="reviews-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of review section -->
+
+    <!-- begin pricing section -->
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Our tour price </h1>
+
+      <div class="pricing__box-container grid3">
+        <div class="pricing-box">
+        <img src="./images/car.jfif">
+          <h3 class="titleText">Local tour</h3>
+          <div class="price titleText"><span>$</span>500<span>/week</span></div>
+          <ul class="list">
+            <li class="graphText">Hotel</li>
+            <li class="graphText">Transport service</li>
+            <li class="graphText">Excursion</li>
+            <li class="graphText">Restaurant</li>
+            <li class="graphText">24/7 support</li>
+          </ul>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="pricing-box">
+          <img src="./images/cruse.png">
+          <h3 class="titleText">Neighbour country </h3>
+          <div class="price titleText"><span>$</span>1250<span>/week</span></div>
+          <ul class="list">
+            <li class="graphText">Hotel</li>
+            <li class="graphText">Transport service</li>
+            <li class="graphText">Excursion</li>
+            <li class="graphText">Restaurant</li>
+            <li class="graphText">24/7 support</li>
+          </ul>
+          </ul>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="pricing-box">
+          <img src="./images/plane.png">
+          <h3 class="titleText"> Europe countries</h3>
+          <div class="price titleText"><span>$</span>4550<span>/mo</span></div>
+          <ul class="list">
+            <li class="graphText">Hotel</li>
+            <li class="graphText">Transport service</li>
+            <li class="graphText">Excursion</li>
+            <li class="graphText">Restaurant</li>
+            <li class="graphText">24/7 support</li>
+          </ul>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- begin contact section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact us</h1>
+      <div class="contact-row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.860354543491!2d66.9570558148695!3d39.65285720966489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d18d09d2a9295%3A0x5642746f9fcbed8!2sSamarkand%20State%20Institute%20of%20Economics%20and%20Service!5e0!3m2!1sen!2s!4v1648011831975!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form>
+          <h3 class="titleText">Getting touch</h3>
+          <input type="text" placeholder="Name ..." class="user-name" />
+          <input type="email" placeholder="Email ..." class="user-name" />
+          <input
+            type="number"
+            placeholder="Phone number ... "
+            class="user-name"
+          />
+          <textarea
+            rows="10"
+            cols="30"
+            class="user-name"
+            placeholder="message"
+          ></textarea>
+          <input type="submit" value="Send message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- end of contact section -->
+
+    <!-- begin blogs section -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our blog</h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/post_1.jpg" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">Explore the world</h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/post_5.jpg" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">The best seesight places in the world</h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/post_3.jpg" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">Voyage tour in Dubai</h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/post_2.jfif" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">Chicago</h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/blog_1.jpg" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">Travel around the world </h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide blogs-slide">
+            <div class="blogs-image">
+              <img src="./images/place_4.jpg" alt="picture" />
+            </div>
+            <div class="blogs-content">
+              <h3 class="titleText">Popular Egypt pyramid</h3>
+              <p class="graphText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                praesentium.
+              </p>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of blogs section -->
+<footer>
+ <h1>Created by DeadPool@.com</h1>
+</footer>
+    <!-- Linked js file -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+      lightGallery(
+        document.querySelector(".projects .projects__box-container")
+      );
+    </script>
+  </body>
+</html>
